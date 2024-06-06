@@ -1,0 +1,595 @@
+id,name,category
+0,Lookingglass Theatre Company,2
+1,Lincoln Park,5
+2,The Loop,1
+3,Garfield Park Conservatory,5
+4,The Art Institute of Chicago,4
+5,Frank Lloyd Wright's Robie House,1
+6,place,0
+7,Maggie Daley Park,5
+8,Chicago Skyline,5
+9,The Chicago Theatre,2
+10,Holy Name Cathedral,0
+11,Chicago River,5
+12,Lincoln Park Conservatory,5
+13,Oriental Institute Museum,4
+14,Water Tower Place,1
+15,Macy's on State Street,1
+16,Chicago Children's Museum,4
+17,The Peggy Notebaert Nature Museum,5
+18,Calder’s Flamingo,1
+19,Carbide and Carbon Building,1
+20,Jackson Park's Japanese Garden,5
+21,Ukrainian Village,3
+22,Chicago Jazz Festival,2
+23,Rosehill Cemetery,1
+24,Lincoln Monument,1
+25,EscapeHouse Chicago,2
+26,Chicago Food Planet,3
+27,Absolutely Chicago Segway Tours,1
+28,Urban Kayaks,5
+29,Chuan Spa,3
+30,Chicago Dine-Around,2
+31,Babylon Tours Chicago,4
+32,"Come Sailing, Inc.",5
+33,UNO Pizzeria & Grill Cooking Class,3
+34,Richard Gray Gallery,4
+35,Caldwell Woods,5
+36,Thomas Masters Gallery,4
+37,McCormick Freedom Project,1
+38,Kavi Gupta Gallery (formerly Vedanta Gallery),4
+39,InMotion Entertainment,3
+40,The Murphy,1
+41,Hoypoloi,3
+42,The Gift Theatre,2
+43,Maya Polsky Gallery,4
+44,Our Lady of Lourdes Church,1
+45,McCormick Tribune Center,1
+46,Dufry,3
+47,Graham Foundation for Advanced Studies in the Fine Arts,1
+48,Man Enters the Cosmos,1
+49,Christkindlemarket,3
+50,ETA Creative Arts Foundation,2
+51,The Dance Center-Columbia College Chicago,2
+52,Steep Theatre Co,2
+53,National Archives at Chicago,4
+54,Fred Anderson Dog Park,5
+55,Cooking & Hospitality Institute of Chicago,2
+56,Filament Theatre,2
+57,Douglas Dawson Gallery,3
+58,DePaul University Merle Reskin Theatre,2
+59,First Lutheran Church of the Trinity,0
+60,Newcity,3
+61,Noble Fool Theater,2
+62,Freedom Wall,1
+63,"St. Therese Chinese Catholic Church, Chicago",0
+64,Erwin Pearl,3
+65,About Face Theater,2
+66,Gage Gallery,4
+67,St. Volodymyr Cathedral,0
+68,"Illinois Artisans, Chicago",1
+69,Brookstone,3
+70,Explore and Much More,5
+71,The Leigh Gallery,4
+72,Jay Robert's Antique Warehouse,3
+73,Illinois Institute of Technology Main Building and Machinery Hall,1
+74,George Wellington “Cap’n” Streeter,1
+75,Holy Innocents Church,0
+76,Sunglass Hut,3
+77,Shrine of our Lady of Pompeii,0
+78,Barbara's Bookstore,3
+79,The Blue Theatre,2
+80,Burnham Greenway,5
+81,Senior Citizen Memorial Playlot Park,3
+82,Museum of Private Art Collections: Featuring the Work of Dali and Lamb,1
+83,Storefront Theater,2
+84,Albany Park Theater Project,1
+85,Hyde Park Chamber of Commerce,5
+86,Monument to the Great Northern Migration,1
+87,Galleria 1712,0
+88,Ballet Chicago,1
+89,Remy Bumppo Theatre Company,2
+90,Lake View Presbyterian Church,0
+91,Chicago Center for the Performing Arts,2
+92,Day Frog,3
+93,Anshe Emet Synagogue,0
+94,Congress Theater,2
+95,Galerie F,4
+96,Bob Newhart Statue,1
+97,Architech Gallery,4
+98,Lake Effect Brewing Company,3
+99,Grave of Andreas Von Zirngibl,1
+100,MontBlanc,1
+101,Greene Vardiman Black Statue,1
+102,West Side Grounds,2
+103,Mana Contemporary,5
+104,Jean Baptiste Point Du Sable Homesite,1
+105,The Chicago Sketch Comedy Festival,2
+106,HBTV Hearty Boys,3
+107,Temple Sholom,0
+108,Polish Triangle,1
+109,St Adalbert Church,0
+110,Foodseum,4
+111,Oakley,3
+112,Woman Made Gallery,4
+113,Chinese American Veterans Memorial,1
+114,Alexander Hamilton Monument,1
+115,pH Comedy Theater,2
+116,Bust Of Sir George Solti,1
+117,Redmoon Theater,2
+118,Chicago Women's Park & Gardens,5
+119,Holtschneider Performance Center,2
+120,Gallagher Way,3
+121,Raven Theatre,2
+122,All Saints - St Anthony,0
+123,Thirty Five E Wacker,1
+124,Comfort Station,4
+125,Trap Door Theatre,2
+126,Mission Theater,2
+127,Tree Studio Complex,4
+128,The Public House Theatre,2
+129,Bronzeville Children's Museum,4
+130,South Side Community Art Center,4
+131,United Club,3
+132,Bryan Lathrop House,1
+133,St. Alphonsus Roman catholic Church,0
+134,Shipwreck of the Silver Spray,5
+135,St. Malachy and Precious Blood Church,0
+136,St. Thomas the Apostle Catholic Parish,0
+137,Cards Against Humanity Theater,2
+138,Route 66 End Sign,1
+139,Curly Tail Fine Art,4
+140,William Shakespeare Monument,1
+141,The House Theatre of Chicago,2
+142,Rolling Stones Records,3
+143,Johnny Twist Blues Museum,0
+144,McKinley Park,1
+145,Vosges Haut-Chocolat,3
+146,The Edge Theater,2
+147,Zolla/Lieberman Gallery,4
+148,Under The Gun Theater,2
+149,Sol LeWitt's Lines in Four Directions,3
+150,Alphawood Gallery,4
+151,St. Mary of the Lake Parish,0
+152,Insidechicagowalkingtours,4
+153,Red Hill Birding,5
+154,City Experiences By Hornblower,2
+155,Seabird Sailing,5
+156,Ghost City Tours of Chicago,1
+157,Chicagoland Brews Cruise,3
+158,Windy City Ghosts,1
+159,Chicago Cycleboats,5
+160,Chicago River Boat Architecture Tours,1
+161,Chicago Segway Tour,1
+162,Fat Tire Tours,1
+163,Nightly Spirits,3
+164,Dovetail Brewery,3
+165,606 Tours Chicago,1
+166,New Adventure Sailing,5
+167,Chicago Sailboat Charters,5
+168,Chicago Bike Adventures,1
+169,Chicago Hauntings,1
+170,Chicago from the Lake Ltd,1
+171,Rotorzen Helicopters Inc,5
+172,3rd Coast Charters,5
+173,WALKIN' WITH COLIN - A*SHOW*ON*THE*GO!,4
+174,Chicago Urban Adventures,3
+175,Loop Tour Train,1
+176,Angler Charters,5
+177,Phenix Sailing Charters,5
+178,Chicago Pedway Tour,1
+179,City Cruises Chicago Chicago River,3
+180,Empire Builder,1
+181,ChicaGo By Boat,5
+182,Wendella Tours & Cruises,1
+183,Chicago Chinese Cultural Institute,1
+184,KnockOut Charters - Private Tours,5
+185,Blackhawk Boat Tours,1
+186,InstaGreeter Tour,1
+187,Chicago Movie Tours,4
+188,Chicago Electric Boat Company,5
+189,Haunted and Gangster Tour in Chicago,1
+190,Chicago Personal Neighborhood Tours,1
+191,Auditorium Theatre,2
+192,BBQ Pontoon,5
+193,The Salty Dog Sailing Co.,5
+194,Chicago Boat Rentals,5
+195,Wrigley Field Tours,2
+196,Weird Chicago Tours,1
+197,Chica-GO Off The Beaten Path Tours,1
+198,Chicago Running Tours & More,1
+199,Windy City Sailing,5
+200,CityPASS,4
+201,Museum Hack Chicago,4
+202,See Sight Tours Chicago,1
+203,Frank Lloyd Wright Trust Tours,1
+204,Chef Driven Food Tours,3
+205,"Yachti Charters, Tender & Tours",5
+206,Chicagoland Skydiving Center,3
+207,Wild Onion Walks Chicago,1
+208,Tour Through A Lens,4
+209,Chicago Prohibition Tours,3
+210,Vice district Brewing,3
+211,Chicago Food Walks with Rebecca Wheeler,3
+212,Studio W.I.P. By Native 312 Events,3
+213,Offbeat Street Art Tour,4
+214,WeVenture Chicago,1
+215,Chicago Elevated,1
+216,Two Lane America,1
+217,City Running Tours-Chicago,1
+218,L Stop Tours,1
+219,Tours by Doorways Of Chicago,1
+220,Family Secrets Tour Chicago,1
+221,O'Hare Limousine,2
+222,Tastebud Tours - Chicago Food Tours,3
+223,Walk Chicago Tours,1
+224,Chicago Foodways Tours,3
+225,Steve's Segway Tours,1
+226,Sidewalk Food Tours of Chicago,3
+227,Scott Green: The Magician In The Box,2
+228,Chicago Beer Experience,3
+229,Chicago Travel & Tours,1
+230,City Segway Tours Chicago,1
+231,Stocks and Blondes Bar and Grille,3
+232,Kayak Chicago,5
+233,Pizza City USA,3
+234,Snickers Bar & Grill,3
+235,Theory Sports Bar and Grill,3
+236,Bike and Roll,5
+237,Wateriders,5
+238,Chicago Fireboat Tours,5
+239,Chicago Detours,1
+240,Brain Drain Escape Rooms,2
+241,AMC Dine-in Theatres Block 37,2
+242,Bobby's Bike Hike,5
+243,Farmhouse,3
+244,Art Room Events,2
+245,The Hypocrites,2
+246,Chicago Private Tours,1
+247,Intrepid Urban Adventures - Chicago,1
+248,MileNorth Hotel,3
+249,Chicago's Finest Tours,1
+250,Chicago Line Cruises,1
+251,BigBus Chicago,1
+252,The Lodge,3
+253,BIG Bar,3
+254,Untouchable Tours,1
+255,Flanagan's Wake,2
+256,LUXBAR,3
+257,"Mercury, Chicago's Skyline Cruiseline",5
+258,Hopleaf,3
+259,ROOF on theWit,3
+260,Echo Limousine,2
+261,Bixbee Imagination Station,4
+262,Rek Travel,3
+263,Streeter's Tavern,3
+264,Haymarket Pub & Brewery,3
+265,The Quandary Escape Rooms,4
+266,The Barrel Run,3
+267,Art Of Escape Room,4
+268,The Magic Cabaret,2
+269,Wildlight Yoga,5
+270,The Violet Hour,3
+271,Emporium Wicker Park,3
+272,Thai Lotus Bodywork,3
+273,ArcLight Cinemas,2
+274,Game Of Imagination,2
+275,Secret Food Tours Chicago,3
+276,Hard Rock Cafe Chicago,3
+277,Gene Siskel Film Center,2
+278,The Annoyance - Theatre & Bar,2
+279,The Book of Mormon,2
+280,The Beer Temple,3
+281,Cerise Rooftop,3
+282,Myopic Books,4
+283,City Mini Golf,5
+284,Old Town Ale House,3
+285,Nuts on Clark,3
+286,Tours With Mike,1
+287,Public House Chicago,3
+288,Tranquil Waters Float,3
+289,Free Chicago Walking Tours,1
+290,The Spice House,3
+291,Whirlyball Chicago,2
+292,Spa at the Peninsula Chicago,3
+293,Waldorf Astoria Spa,3
+294,The Map Room,3
+295,Redhead Piano Bar,2
+296,Three Dots and a Dash,3
+297,Spa at Four Seasons Hotel Chicago,3
+298,See it All Chicago Tours,1
+299,AceBounce,3
+300,Ride In Bliss,2
+301,The Drifter,3
+302,Metro,2
+303,Headquarters Beercade,3
+304,Paniq Escape Room Chicago - Logan Square,2
+305,Reckless Records,3
+306,UP Comedy Club,2
+307,Iwan Reis Cigars & Tobacco,3
+308,Chicago Pizza Tours,3
+309,The Spa at Trump Chicago,3
+310,City Cruises Chicago,5
+311,Harborside International Golf Center,5
+312,Segway Experience of Chicago,1
+313,Zanies Comedy Club,2
+314,Ghirardelli Chocolate Shop,3
+315,"Architectural Artifacts, Inc.",4
+316,Tall Ship Windy,5
+317,Richard's Bar,3
+318,Unabridged Books,4
+319,Tours and Boats,1
+320,Escape Artistry - Time Gallery,4
+321,Binny's Beverage Depot,3
+322,Bad Axe Throwing Chicago (Lake View),2
+323,P.O.S.H,3
+324,Thalia Hall,2
+325,Aire Ancient Baths Chicago,3
+326,Supernatural Chicago,2
+327,St. James Cathedral,0
+328,The Hideout Inn,2
+329,The Spa at Eurostars Magnificent Mile,3
+330,The Ritz-Carlton Chicago Spa,3
+331,Nitti's Supper Club,2
+332,Powell's Books Chicago,4
+333,Free Tours by Foot,1
+334,Eataly,3
+335,Windy City Massage,3
+336,Royal George Theater,2
+337,We Gotta Bingo,2
+338,Chicago Crime Tours and Experiences,1
+339,Sidetrack,3
+340,Kings Dining & Entertainment Lincoln Park,3
+341,Merz Apothecary,3
+342,Old Town School of Folk Music,2
+343,Lagunitas Taproom,3
+344,The Chopping Block,3
+345,Room X Escape,2
+346,EJ Concierge Ride,3
+347,Chicago Sports Museum,4
+348,Underground Donut Tour,3
+349,The iO Theater,2
+350,Lotties Pub,3
+351,The Great Escape Room Chicago,2
+352,The Magic Penthouse,2
+353,Inside Chicago Walking Tours,1
+354,Tony n’ Tina’s Wedding,2
+355,iFLY Indoor Skydiving - Chicago (Lincoln Park),3
+356,Bad Axe Throwing Chicago (West Loop),2
+357,ComedySportz Chicago,2
+358,Legendary Private Car,2
+359,Chicago Architecture Center,1
+360,Chicago Gangsters and Ghosts Tours,1
+361,Fannie May,3
+362,Green Mill,2
+363,Chicago Greeter,1
+364,Trickery,2
+365,Steppenwolf Theatre Company,2
+366,House of Blues Chicago,2
+367,The Game Show Game Show,2
+368,Tommy Gun's Garage,2
+369,Cabaret Zazou,2
+370,BATL Axe Throwing,3
+371,B.L.U.E.S.,2
+372,Wendella,1
+373,Team vs Time,2
+374,Winter's Jazz Club,2
+375,Rosa's Lounge,2
+376,Bobby's Bike Hike Chicago,3
+377,Hamilton,2
+378,Signature Lounge,2
+379,Chief Chicago Limo,1
+380,Andy's Jazz Club,3
+381,Chicago’s First Lady Cruises,1
+382,Ragnarok Axe Throwing,2
+383,Paniq Escape Room Chicago,2
+384,Jay Pritzker Pavilion,2
+385,Taste of Chicago,3
+386,On Tour Brewing Company,3
+387,Buddy Guy's Legends,2
+388,American Girl Place Chicago,3
+389,Millennium Monument,1
+390,Ping Tom Memorial Park,5
+391,Motor Row Brewing,3
+392,Monument with Standing Beast,1
+393,Jazz Showcase,2
+394,Centennial Fountain And Water Arc,5
+395,Allure De Vie Salon & Day Spa,3
+396,Lake Point Tower,1
+397,Drunk Shakespeare,2
+398,Miro's Chicago,1
+399,Escape Artistry - The Railcar,2
+400,Shoreline Sightseeing,1
+401,Symphony Center - Chicago Symphony Orchestra,2
+402,Chicago Water Taxi,5
+403,The Field Museum Store,4
+404,Chinese-American Museum of Chicago,4
+405,wndr museum,4
+406,Chicago Lakefront,5
+407,Humboldt Park,5
+408,Chase Tower,1
+409,Second Presbyterian Church of Chicago,0
+410,Chicago Maritime Museum,4
+411,Daley Bicentennial Plaza,3
+412,Vietnam Veterans Fountain,1
+413,Kingston Mines,2
+414,WHIM Chicago @ Stage 773,2
+415,Second City,2
+416,Navy Pier Festival Hall Complex,5
+417,Blue Chicago,2
+418,Briar Street Theatre,2
+419,Windy City Playhouse,2
+420,Sullivan Center,1
+421,Blue Man Group,2
+422,Half Acre Beer Company,3
+423,Begyle Brewing,3
+424,Chase Auditorium,2
+425,Lincoln Square,1
+426,Montrose Point Bird Sanctuary,5
+427,Chess Records,0
+428,Polish Museum of America,4
+429,Foster Avenue Beach,5
+430,Daley Center,1
+431,Lincoln Hall,2
+432,Agora Scuptures,5
+433,Chicago Magic Lounge,2
+434,Lollapalooza,2
+435,London Guarantee Building,1
+436,Elks National Memorial,1
+437,TimeLine Theatre,2
+438,Neo-Futurists,2
+439,Apollo Theater Chicago,2
+440,Chicago Distilling Company,3
+441,The Moody Church,0
+442,Ed Paschke Art Center,4
+443,Greenhouse Theater Center,2
+444,Balzekas Museum of Lithuanian Culture,4
+445,Pritzker Military Museum & Library,4
+446,McCormick Tribune Ice Rink,5
+447,Smart Museum of Art,4
+448,Green City Market,3
+449,Lake Shore East Park,5
+450,Park West,2
+451,French Market,3
+452,The Den Theatre,2
+453,Chicago Air and Water Show,5
+454,Our Lady of Sorrows Basilica,0
+455,Revolution Brewing - Brewery & Taproom,3
+456,Pullman National Monument Information Center,1
+457,Wrigley View Rooftop,2
+458,Music Box Theatre,2
+459,Wrigleyville,3
+460,The Shops at North Bridge,3
+461,Reliance Building,1
+462,Broadway Playhouse,2
+463,The Lyric Opera House,2
+464,Emil Bach House by Frank Lloyd Wright,1
+465,BP Pedestrian Bridge,5
+466,Court Theater,2
+467,Intuit: The Center for Intuitive and Outsider Art,4
+468,Monadnock Building,1
+469,Oz Park,5
+470,Chicago Loop Synagogue,0
+471,The 900 Shops Mall,1
+472,Route 66,1
+473,St Peter's Church,0
+474,Chicago Opera Theater,2
+475,Museum of Contemporary Photography,4
+476,Chicago Blues Festival,2
+477,The Magic Parlour,2
+478,Pullman Historic District,1
+479,Swedish American Museum,4
+480,Lake Shore Place,5
+481,Fine Arts Building,1
+482,Chicago Marathon,5
+483,Nordstrom,3
+484,Jackson Bark - Dog Park,5
+485,Palmer House Hilton Historic Lobby,1
+486,Greektown,3
+487,Charnley-Persky House,1
+488,Chicago Cultural Center Welcome Center,1
+489,Aqua Tower,1
+490,Lagunitas Brewing Company,3
+491,Chicago Pedway,1
+492,Black Ensemble Theater,2
+493,Victory Gardens Theater,2
+494,Harris Theater,2
+495,St. John Cantius Church,0
+496,Loyola University Museum of Art (LUMA),4
+497,Color Factory Chicago,4
+498,Chicago Chinatown,3
+499,Ukrainian National Museum,4
+500,Old St. Patrick's Church,0
+501,Mindworks: The Science Of Thinking,4
+502,Milton Lee Olive Park,5
+503,Chicago Temple,0
+504,Bloomingdale's,3
+505,The Old Town of Chicago,1
+506,Lurie Garden,5
+507,Centennial Wheel,5
+508,"Jane Addams Hull-House Museum l,ll",4
+509,Tilt,1
+510,Klairmont Kollections,4
+511,Historic Water Tower,1
+512,Prairie Avenue Historic District,1
+513,The 606,5
+514,Fox in a Box Chicago,2
+515,Oak Street,3
+516,Marquette Building,1
+517,The Mercury Theater,2
+518,Hyde Park,5
+519,Museum of Broadcast Communications,4
+520,Montrose Beach,5
+521,Chicago Transit Authority - CTA,1
+522,Marina City,1
+523,Pilsen,3
+524,Andersonville,3
+525,DuSable Museum of African American History,4
+526,Newberry Library,4
+527,Rockefeller Memorial Chapel,0
+528,Devon Avenue,3
+529,Willie Dixon's Blues Heaven Foundation,0
+530,Joffrey Ballet of Chicago,2
+531,Chagall's Four Seasons,1
+532,Merchandise Mart,1
+533,Chicago Board of Trade Building,1
+534,The Escape Game Chicago,2
+535,Alfred Caldwell Lily Pool,5
+536,Ohio Street Beach,5
+537,International Museum of Surgical Science,4
+538,The McCormick Bridgehouse & Chicago River Museum,5
+539,Boystown,3
+540,Oak Street Beach,5
+541,Money Museum at the Federal Reserve Bank,4
+542,Glessner House Museum,1
+543,Museum Of Illusions Chicago,4
+544,North Avenue Beach,5
+545,John Hancock Center,1
+546,Fourth Presbyterian Church,0
+547,Cadillac Palace Theatre,2
+548,McCormick Place,2
+549,Museum of Contemporary Art,4
+550,Wicker Park,3
+551,CIBC Theatre,2
+552,Picasso Statue,1
+553,Guaranteed Rate Field,2
+554,Holy Trinity Orthodox Cathedral,0
+555,Harold Washington Library Center,4
+556,Wrigley Building,1
+557,Soldier Field,2
+558,James M. Nederlander Theatre,2
+559,Engine 18 Chicago Fire,1
+560,Adler Planetarium,4
+561,Goodman Theatre,2
+562,Lyric Opera of Chicago,2
+563,American Writers Museum,4
+564,Chicago History Museum,4
+565,University of Chicago,4
+566,Graceland Cemetery,1
+567,Goose Island Beer Co.,3
+568,The Rookery Building,1
+569,Chicago Shakespeare Theater on Navy Pier,2
+570,Michigan Avenue Bridge,5
+571,Tribune Tower,1
+572,Union Station,1
+573,Medieval Torture Museum,4
+574,Crown Fountain,5
+575,Grant Park,5
+576,National Museum of Mexican Art,4
+577,Buckingham Fountain,5
+578,Lakefront Trail,5
+579,United Center,2
+580,Richard H. Driehaus Museum,4
+581,Lincoln Park Zoo,5
+582,360 Chicago Observation Deck,1
+583,Chicago Riverwalk,5
+584,Navy Pier,5
+585,Chicago Cultural Center,1
+586,Shedd Aquarium,5
+587,Field Museum,4
+588,Museum of Science and Industry,4
+589,Millennium Park,5
+590,Skydeck Chicago - Willis Tower,1
+591,Wrigley Field,2
+592,The Magnificent Mile,1
+593,Cloud Gate,5
