@@ -12,9 +12,8 @@ BOT_NAME = 'tripAdvisorCrawler'
 SPIDER_MODULES = ['tripAdvisorCrawler.spiders']
 NEWSPIDER_MODULE = 'tripAdvisorCrawler.spiders'
 
-
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'tripAdvisorCrawler (+http://www.yourdomain.com)'
+USER_AGENT = #TODO: Add your user agent here
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False

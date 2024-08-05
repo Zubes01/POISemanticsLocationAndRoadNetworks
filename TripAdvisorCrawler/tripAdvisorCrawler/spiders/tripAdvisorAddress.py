@@ -9,9 +9,9 @@ class TripAdvisorAddSpider(scrapy.Spider):
     #     "http://www.tripadvisor.com/Attractions-g60763-Activities-a_allAttractions.true-New_York_City_New_York.html"
     # ]
     start_urls = [
-       "https://www.tripadvisor.com/Attractions-g35805-Activities-a_allAttractions.true-Chicago_Illinois.html"
+       "https://www.tripadvisor.com/Attractions-g28970-Activities-oa0-Washington_DC_District_of_Columbia.html"
     ]
-    city = "Chicago"
+    city = "Washington_DC"
 
     poiSet = set()
 
@@ -45,8 +45,8 @@ class TripAdvisorAddSpider(scrapy.Spider):
             # preUrl = "http://www.tripadvisor.com/Attractions-g60763-Activities-oa"
             # sufUrl = "-a_allAttractions.true-New_York_City_New_York.html"
 
-            preUrl = "https://www.tripadvisor.com/Attractions-g35805-Activities-oa"
-            sufUrl = "-a_allAttractions.true-Chicago_Illinois.html"
+            preUrl = "https://www.tripadvisor.com/Attractions-g28970-Activities-oa0"
+            sufUrl = "-Washington_DC_District_of_Columbia.html"
 
             # nextPage = curPage + 1
             # Url: (nextPage -1) * 30 = curPage * 30

@@ -11,7 +11,7 @@ class TripAdvisorSpider(scrapy.Spider):
     #    "https://www.tripadvisor.com/Attractions-g55197-Activities-a_allAttractions.true-Memphis_Tennessee.html"
     #]
     start_urls = [
-       "https://www.tripadvisor.com/Attractions-g35805-Activities-a_allAttractions.true-Chicago_Illinois.html"
+       "https://www.tripadvisor.com/Attractions-g28970-Activities-oa0-Washington_DC_District_of_Columbia.html"
     ]
     #start_urls = [
     #    "https://www.tripadvisor.com/Attractions-g34438-Activities-a_allAttractions.true-Miami_Florida.html"
@@ -33,17 +33,17 @@ class TripAdvisorSpider(scrapy.Spider):
 
     def parse(self, response):
         # Redirect to Reviews page
-        poiLinks = response.xpath('//div[@class="alPVI eNNhq PgLKC tnGGX"]/a[not(@class)]/@href').extract() # Old XPath '//a[@class="_2OD1jgdZ"]/@href'
+        poiLinks = response.xpath('//a[contains(@class, "BMQDV _F Gv wSSLS SwZTJ EabUM FGwzt")]/@href').extract()
+
         for link in poiLinks:
             # Generate absolute url link for the review of each PoI
-            poiAbsPath = response.urljoin(link + "#REVIEWS")
+            if "Attraction_Review" in link:
+                poiAbsPath = response.urljoin(link + "#REVIEWS")
 
-            if poiAbsPath not in self.poiUrl:
-                self.poiSet.add(link)
-
-                self.poiUrl.add(poiAbsPath)
-
-                yield scrapy.Request(poiAbsPath, callback=self.parseReviewsSum)
+                if poiAbsPath not in self.poiUrl:
+                    self.poiSet.add(link)
+                    self.poiUrl.add(poiAbsPath)
+                    yield scrapy.Request(poiAbsPath, callback=self.parseReviewsSum)
 
         # a - 1 ; a30 - 2; a60 - 3
         #curPage = int(response.xpath('//div[@class="pageNumbers"]/span[contains(@class, "pageNum current")]/text()').
@@ -61,8 +61,8 @@ class TripAdvisorSpider(scrapy.Spider):
 
             # E.g. https://www.tripadvisor.com/Attractions-g35805-Activities-oa30
             # -a_allAttractions.true-Chicago_Illinois.html
-            preUrl = "https://www.tripadvisor.com/Attractions-g35805-Activities-oa"
-            sufUrl = "-a_allAttractions.true-Chicago_Illinois.html"
+            preUrl = "https://www.tripadvisor.com/Attractions-g28970-Activities-oa0"
+            sufUrl = "-Washington_DC_District_of_Columbia.html"
 
             # E.g. https://www.tripadvisor.com/Attractions-g28970-Activities-oa30
             # -a_allAttractions.true-Washington_DC_District_of_Columbia.html
@@ -104,12 +104,9 @@ class TripAdvisorSpider(scrapy.Spider):
 
                 yield scrapy.Request(reviewAbsPath, callback=self.parseReview)
 
-        #next_page = response.xpath('//link[@rel="next"]/@href').extract()
-        nextPage = response.xpath('//a[@aria-label="Next page"]/@href').extract() # Old XPath '//a[contains(@class, "ui_button nav next")]/@href'
-        #curPage = int(response.xpath('//div[@class="pageNumbers"]/span[contains(@class, "pageNum current")]/text()').
-        #              extract_first())
+        nextPage = response.xpath('//a[@aria-label="Next page"]/@href').extract()
         curPage = response.xpath('//button[@class="BrOJk u j z _F wSSLS tIqAi iNBVo SSqtP"]//span[@class="biGQs _P ttuOS"]/text()').\
-            extract_first() # Old XPath '//div[@class="pageNumbers"]/span[contains(@class, "pageNum current")]/text()'
+            extract_first()
 
         if curPage:
             curPage = int(curPage)
@@ -120,7 +117,6 @@ class TripAdvisorSpider(scrapy.Spider):
 
                 if poiAbsPath not in self.poiUrl:
                     self.poiUrl.add(poiAbsPath)
-
                     yield scrapy.Request(poiAbsPath, callback=self.parseReviewsSum)
 
     def parseReview(self, response):

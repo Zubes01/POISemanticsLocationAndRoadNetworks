@@ -4,14 +4,19 @@
 
 ## Dataset Collection Pipeline:
 
-### POI
-1. Collect attractions and addresses using TripAdvisorCrawler/TripAdvisorCrawler/spiders/tripAdvisorAddress.py
-2. Translate addresses into coordinates using geocode.py
-3. Attach PoI to the Open Street Map road network using PoIOSMNetwork.py
+### Preparation
+In settings.py, set the USER_AGENT variable to your identification/website.
 
 ### Reviews
-1. Collect reviews using TripAdvisorCrawler/TripAdvisorCrawler/spiders/tripAdvisorSpider.py
-2. Clean review text and generate categories using LDA using LDAPreparePoI.py
+1. Edit TripAdvisorCrawler/TripAdvisorCrawler/spiders/tripAdvisorSpider.py by changinge the start_urls, preUrl, and sufUrl variables.
+2. Collect reviews using TripAdvisorCrawler/TripAdvisorCrawler/spiders/tripAdvisorSpider.py
+3. Clean review text and generate categories using LDA using LDAPreparePoI.py
+
+### POI
+1. Edit TripAdvisorCrawler/TripAdvisorCrawler/spiders/tripAdvisorAddress.py, changing the start_urls, city, preUrl, and sufUrl variables to match your desired page.
+2. Collect attractions and addresses using TripAdvisorCrawler/TripAdvisorCrawler/spiders/tripAdvisorAddress.py
+3. Translate addresses into coordinates using geocode.py
+4. Attach PoI to the Open Street Map road network using PoIOSMNetwork.py
 
 ### Combining them together
 1. Use ParallelContractNetwork.py to add category information to PoI on the road network and contract the network.
