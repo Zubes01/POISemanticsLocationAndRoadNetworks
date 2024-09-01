@@ -12,8 +12,8 @@ from itertools import repeat
 def main():
     poiDivtDict = {}
     poi_info_dict = {} # Used to create PoI_info.csv, and nodes for the ContractPoINetwork
-    city = "NY"
-    num_pois = 623
+    city = "Memphis"
+    num_pois = 10
 
     with open("LDA_Model_6/" + city + "DivVector.csv", 'r', encoding='cp1252') as rf:
         spamreader = csv.reader(rf)

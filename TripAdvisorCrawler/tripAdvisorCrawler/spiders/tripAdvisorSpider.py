@@ -7,12 +7,12 @@ class TripAdvisorSpider(scrapy.Spider):
     #start_urls = [
     #    "http://www.tripadvisor.com/Attractions-g60763-Activities-a_allAttractions.true-New_York_City_New_York.html"
     #]
-    #start_urls = [
-    #    "https://www.tripadvisor.com/Attractions-g55197-Activities-a_allAttractions.true-Memphis_Tennessee.html"
-    #]
     start_urls = [
-       "https://www.tripadvisor.com/Attractions-g28970-Activities-oa0-Washington_DC_District_of_Columbia.html"
+        "https://www.tripadvisor.com/Attractions-g55197-Activities-a_allAttractions.true-Memphis_Tennessee.html"
     ]
+    #start_urls = [
+    #   "https://www.tripadvisor.com/Attractions-g28970-Activities-oa0-Washington_DC_District_of_Columbia.html"
+    #]
     #start_urls = [
     #    "https://www.tripadvisor.com/Attractions-g34438-Activities-a_allAttractions.true-Miami_Florida.html"
     #]
@@ -61,8 +61,8 @@ class TripAdvisorSpider(scrapy.Spider):
 
             # E.g. https://www.tripadvisor.com/Attractions-g35805-Activities-oa30
             # -a_allAttractions.true-Chicago_Illinois.html
-            preUrl = "https://www.tripadvisor.com/Attractions-g28970-Activities-oa0"
-            sufUrl = "-Washington_DC_District_of_Columbia.html"
+            #preUrl = "https://www.tripadvisor.com/Attractions-g28970-Activities-oa0"
+            #sufUrl = "-Washington_DC_District_of_Columbia.html"
 
             # E.g. https://www.tripadvisor.com/Attractions-g28970-Activities-oa30
             # -a_allAttractions.true-Washington_DC_District_of_Columbia.html
@@ -78,6 +78,11 @@ class TripAdvisorSpider(scrapy.Spider):
             # -a_allAttractions.true-San_Diego_California.html
             # preUrl = "https://www.tripadvisor.com/Attractions-g60750-Activities-oa"
             # sufUrl = "-a_allAttractions.true-San_Diego_California.html"
+
+            # E.g. https://www.tripadvisor.com/Attractions-g55197-Activities-oa30
+            # -a_allAttractions.true-Memphis_Tennessee.html
+            preUrl = "https://www.tripadvisor.com/Attractions-g55197-Activities-oa"
+            sufUrl = "-a_allAttractions.true-Memphis_Tennessee.html"
 
             # nextPage = curPage + 1
             # Url: (nextPage -1) * 30 = curPage * 30

@@ -206,9 +206,9 @@ class PoI_Graph:
 
 def main():
     folder_name = "PoI_Network"
-    city_name = "Washington DC"
-    state_name = "District of Columbia"
-    short_name = "WDC"
+    city_name = "Memphis"
+    state_name = "Tennessee"
+    short_name = "Memphis"
 
     if not os.path.isdir(folder_name):
         os.mkdir(folder_name)
@@ -231,18 +231,18 @@ def main():
 
         nsDic, esDic = osmG.poi_overlay(poiDic, processPoI=True)
 
-        # Insert hotels into network
-        startingPDic = {}
+        # # Insert hotels into network
+        # startingPDic = {}
 
-        with open(folder_name+"/new_york_hotels.csv", 'r', encoding='cp1252') as rhandle:
-            spamreader = csv.reader(rhandle)
+        # with open(folder_name+"/new_york_hotels.csv", 'r', encoding='cp1252') as rhandle:
+        #     spamreader = csv.reader(rhandle)
 
-            next(spamreader)
+        #     next(spamreader)
 
-            for eachRow in spamreader:
-                if eachRow[3] in ['New York', 'Brooklyn', 'Staten Island', "Long Island City", "Flushing", "Jamaica",
-                                  "Queens Village", "Floral Park", "Bayside", "Far Rockaway", "Bronx"]:
-                    startingPDic[eachRow[1]] = (float(eachRow[7]), float(eachRow[6]))
+        #     for eachRow in spamreader:
+        #         if eachRow[3] in ['New York', 'Brooklyn', 'Staten Island', "Long Island City", "Flushing", "Jamaica",
+        #                           "Queens Village", "Floral Park", "Bayside", "Far Rockaway", "Bronx"]:
+        #             startingPDic[eachRow[1]] = (float(eachRow[7]), float(eachRow[6]))
 
         # with open(folder_name+"/chicago_airbnbs.csv", 'r') as rhandle:
         #     spamreader = csv.reader(rhandle)
@@ -257,7 +257,7 @@ def main():
         #                 startingPDic[eachRow[1]] = (float(eachRow[7]), float(eachRow[6]))
         #                 count += 1
 
-        nsDic, esDic = osmG.poi_overlay(startingPDic, processPoI=False)
+        #nsDic, esDic = osmG.poi_overlay(startingPDic, processPoI=False)
 
         print("Start Writing to files...")
 

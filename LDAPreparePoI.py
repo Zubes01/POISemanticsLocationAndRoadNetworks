@@ -7,12 +7,14 @@ import os, csv
 import CONSTANTS
 
 import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger_eng')
 
 
 
 def main():
     folder_name = "LDA_Model_" + str(CONSTANTS.CATEGORY_NUM)
-    city = "WDC"
+    city = "Memphis"
 
     if os.path.exists(folder_name + "/" + city + "CleanedText.csv"):
         print("Start Loading Cleaned Text...")

@@ -9,9 +9,9 @@ class TripAdvisorAddSpider(scrapy.Spider):
     #     "http://www.tripadvisor.com/Attractions-g60763-Activities-a_allAttractions.true-New_York_City_New_York.html"
     # ]
     start_urls = [
-       "https://www.tripadvisor.com/Attractions-g28970-Activities-oa0-Washington_DC_District_of_Columbia.html"
+       "https://www.tripadvisor.com/Attractions-g55197-Activities-a_allAttractions.true-Memphis_Tennessee.html"
     ]
-    city = "Washington_DC"
+    city = "Memphis"
 
     poiSet = set()
 
@@ -45,8 +45,8 @@ class TripAdvisorAddSpider(scrapy.Spider):
             # preUrl = "http://www.tripadvisor.com/Attractions-g60763-Activities-oa"
             # sufUrl = "-a_allAttractions.true-New_York_City_New_York.html"
 
-            preUrl = "https://www.tripadvisor.com/Attractions-g28970-Activities-oa0"
-            sufUrl = "-Washington_DC_District_of_Columbia.html"
+            preUrl = "https://www.tripadvisor.com/Attractions-g55197-Activities-oa0"
+            sufUrl = "-a_allAttractions.true-Memphis_Tennessee.html"
 
             # nextPage = curPage + 1
             # Url: (nextPage -1) * 30 = curPage * 30
@@ -70,7 +70,7 @@ class TripAdvisorAddSpider(scrapy.Spider):
             print(len(self.poiSet), " PoIs left...")
 
             # Address
-            address = response.xpath('//div[@class="MJ"]/button[@class="UikNM _G B- _S _T c G_ P0 wSSLS wnNQG raEkE"]/span/text()').extract() # Old XPath '//div[@class="LjCWTZdN"]/span/text()'
+            address = response.xpath('//div[@class="MJ"]/button[@class="UikNM _G B- _S _W _T c G_ wSSLS wnNQG raEkE"]/span/text()').extract() # Old XPath '//div[@class="LjCWTZdN"]/span/text()'
 
             if address:
                 address = address[-1]

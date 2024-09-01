@@ -2,8 +2,8 @@ import csv
 from geopy.geocoders import Nominatim, ArcGIS
 from geopy.exc import GeocoderTimedOut
 
-long_city = 'Washington, DC '
-short_city = 'WDC'
+long_city = 'Memphis'
+short_city = 'Memphis'
 
 
 def get_lng_lat(geolocator, address):
